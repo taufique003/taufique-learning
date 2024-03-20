@@ -1,0 +1,26 @@
+************************GIT/GITHUB *******************************************
+git init : to initialize git 
+ls -a  : list all the folders including hidden flders 
+git add filename.txt  : to move file to stagging area from wrking area 
+git commit -m "Message or comment "  : to commit changes 
+git config user.name " sarah"  : the name who commited
+git config user.email "example.com"  ; the email address of the committed person
+git restore filename.txt : this will bring back the committed file if the commit was done by mistake 
+git restore --staged filename.txt : to bring back to working area from the stagging area
+git add .   : this will move all the file present in working area to staging area
+ git rm --cached filename.txt : to remove the file from atagging area 
+ git rm -f filename.txt : this will forcey remove the file and the contents will be deleted
+ echo "filename.txt" >> .gitignore : this will ignore the file, and is not shown in git status
+ git log  : used to see the log who have commited 
+ git checkout -b sarah  : It will create new brach named sarah and swith to that branch 
+ git branch sarah : this will also create new branch named sarah
+ git branch : to list all the  branches
+ git checkout sarah  : to swith sarah branch 
+ git branch -d  sarah : -d means to delete,  this will delete the sarah branch 
+ git merge sarah : this will merge the sarah branch with master(Need to be in master branch
+ git remote add origin https://github.com/taufique003/taufique-learning.git  : to add remote repository 
+ git  remote -v  : to list out remote repository 
+ git push origin master : to push commit to the remote repository 
+ git remote set-url  : to change the remote url 
+ git clone  ssh link  : to clone remote repository 
+ 
